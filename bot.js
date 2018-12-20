@@ -474,7 +474,7 @@ client.on('message', message => {
   if (!message.content.startsWith(PREFIX)) return;
   var args = message.content.split(' ').slice(1);
   var argresult = args.join(' ');
-  if (message.author.id !== "439187325503930369") return;
+  if (message.author.id !== "523473658963034127") return;
  
 if (message.content.startsWith(PREFIX + 'setstream')) {
   client.user.setGame(argresult, "https://www.twitch.tv/darkknite55");
@@ -951,7 +951,7 @@ client2.on('message', message => {
   if (!message.content.startsWith(PREFIX2)) return;
   var args = message.content.split(' ').slice(1);
   var argresult = args.join(' ');
-  if (message.author.id !== "414477438869831682") return;
+  if (message.author.id !== "523473658963034127") return;
  
 if (message.content.startsWith(PREFIX2 + 'setstream')) {
   client2.user.setGame(argresult, "https://www.twitch.tv/darkknite55");
@@ -1429,7 +1429,7 @@ client3.on('message', message => {
   if (!message.content.startsWith(PREFIX3)) return;
   var args = message.content.split(' ').slice(1);
   var argresult = args.join(' ');
-  if (message.author.id !== "414477438869831682") return;
+  if (message.author.id !== "523473658963034127") return;
  
 if (message.content.startsWith(PREFIX3 + 'setstream')) {
   client3.user.setGame(argresult, "https://www.twitch.tv/darkknite55");
@@ -1910,7 +1910,7 @@ client4.on('message', message => {
   if (!message.content.startsWith(PREFIX4)) return;
   var args = message.content.split(' ').slice(1);
   var argresult = args.join(' ');
-  if (message.author.id !== "439187325503930369") return;
+  if (message.author.id !== "523473658963034127") return;
  
 if (message.content.startsWith(PREFIX4 + 'setstream')) {
   client4.user.setGame(argresult, "https://www.twitch.tv/darkknite55");
@@ -2387,7 +2387,7 @@ client5.on('message', message => {
   if (!message.content.startsWith(PREFIX5)) return;
   var args = message.content.split(' ').slice(1);
   var argresult = args.join(' ');
-  if (message.author.id !== "414477438869831682") return;
+  if (message.author.id !== "523473658963034127") return;
  
 if (message.content.startsWith(PREFIX5 + 'setstream')) {
   client5.user.setGame(argresult, "https://www.twitch.tv/darkknite55");
